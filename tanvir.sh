@@ -64,7 +64,7 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 
-git commit -m "5/2/2020: Core mechanics of the cannon movement."
+git commit -m "19/2/2020: Commit after the pc fix."
 
 ############
 # Step: 05 #
