@@ -64,7 +64,7 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 
-git commit -m "Initial Commit"
+git commit -m "5/2/2020: Core mechanics of the cannon movement."
 
 ############
 # Step: 05 #
