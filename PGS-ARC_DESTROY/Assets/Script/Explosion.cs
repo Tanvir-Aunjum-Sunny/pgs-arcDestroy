@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    public float cubeSize = 0.1f;
+    public float cubeSize = 1f;
     public int cubesInRow = 5;
     public float explosionRadius = 10.0f;
     public float explosionForce = 20.0f;
@@ -32,12 +32,12 @@ public class Explosion : MonoBehaviour
 
         Animation = Animation % 3f;
 
-        transform.position = MathParabola.Parabola(Vector3.zero , Vector3.forward * 3f , 3f , Animation / 3f);
+        transform.position = MathParabola.Parabola(Vector3.one , Vector3.forward * 3f , 3f , Animation / 3f);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name == "Bullet")
+        if(other.gameObject.name == "Floor")
         {
             explode();
         }
