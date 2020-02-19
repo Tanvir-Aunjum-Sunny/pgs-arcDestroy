@@ -104,5 +104,5 @@ git remote -v
 echo
 echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git push
 echo
-git push origin tanvirDev
+git push origin master
 git push --all -f https://github.com/Tanvir-Aunjum-Sunny/pgs-arcDestroy.git
