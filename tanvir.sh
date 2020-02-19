@@ -64,7 +64,7 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 
-git commit -m "19/2/2020: Commit after the pc fix."
+git commit -m "19/2/2020: Latest commit"
 
 ############
 # Step: 05 #
@@ -104,5 +104,5 @@ git remote -v
 echo
 echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git push
 echo
-git push origin master
+git push origin tanvirDev
 git push --all -f https://github.com/Tanvir-Aunjum-Sunny/pgs-arcDestroy.git
